@@ -3,6 +3,6 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class AppService {
   getHello(): string {
-    return 'Hello World New Docker Image broken for QA!';
+    return 'Hello World New Docker Image!';
   }
 }
